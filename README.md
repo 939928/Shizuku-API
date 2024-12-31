@@ -1,4 +1,8 @@
-# Shizuku-API
+def shizuku_version = (the version above)
+implementation "dev.rikka.shizuku:api:$shizuku_version"
+
+// Add this line if you want to support Shizuku
+implementation "dev.rikka.shizuku:provider:$shizuku_version"# Shizuku-API
 
 Shizuku API is the API provided by [Shizuku](https://github.com/RikkaApps/Shizuku) and [Sui](https://github.com/RikkaApps/Sui). With Shizuku API, you can call your Java/JNI code with root/shell (ADB) identity.
 
